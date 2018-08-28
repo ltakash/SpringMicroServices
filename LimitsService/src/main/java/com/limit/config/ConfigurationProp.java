@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties("limits")
+@ConfigurationProperties("limits.service")
 public class ConfigurationProp {
 int max;
 int min;
